@@ -1,7 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import Image from "./image.js";
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Demo from './demo';
-
-ReactDOM.render(<Demo />, document.querySelector('#root'));
-    
+ReactDOM.render(<Image />, document.querySelector("#root"));
