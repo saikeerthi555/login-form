@@ -1,14 +1,19 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { FormHelperText } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
-  root: {},
   footer: {
     display: "flex",
-    height: 300,
+    justifyContent: "top",
+    height: 270,
     backgroundColor: "#40394a",
-    color: "#fff"
+    color: "#fff",
+    flexShrink: 0
+  },
+  text: {
+    justifyContent: "center",
+    alighnItems: "center",
+    padding: "6em"
   }
 }));
 
@@ -16,9 +21,10 @@ export default function CardFooter() {
   const classes = useStyles();
   return (
     <footer className={classes.footer}>
-      <div>Terms & Condition</div>
-      <div>Privacy policy</div>
-      <div>Help</div>
+      <div className={classes.text}>Terms & Condition</div>
+      <div className={classes.text}>Privacy policy</div>
+      <div className={classes.text}>Help</div>
+      <div className={classes.text}>Techsaman @020 | All Rights Reserved.</div>
     </footer>
   );
 }
