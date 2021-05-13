@@ -1,5 +1,6 @@
 import React from "react";
 import Login from "./login.js";
+import Footer from "./footer.js";
 import Image from "./background-img.jpg";
 import { makeStyles } from "@material-ui/core/styles";
 import { CssBaseline } from "@material-ui/core";
@@ -18,6 +19,7 @@ export default function CardImage() {
     <div className={classes.root}>
       <CssBaseline />
       <Login />
+      <Footer />
     </div>
   );
 }
