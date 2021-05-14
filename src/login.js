@@ -1,6 +1,6 @@
 import React from "react";
-import TextField from "@material-ui/core/TextField";
 import Container from "@material-ui/core/Container";
+import TextField from "@material-ui/core/TextField";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import { Card } from "@material-ui/core";
@@ -9,15 +9,15 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles((theme) => ({
   main: {
     display: "flex",
-    justifyContent: "center",
-    alighnItems: "center",
+    justifyContent: "flex-end ",
     height: "60vh"
   },
   root: {
-    width: 380,
-    height: 340,
-    marginTop: "80px",
-    padding: "30px",
+    width: "60vh",
+    height: "50vh",
+    marginTop: "8em",
+    marginRight: "8em",
+    padding: "2em",
     background: "#fff",
     boxShadow: "0 2px 2px 2px #e1e5ea"
   },

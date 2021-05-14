@@ -4,16 +4,14 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles((theme) => ({
   footer: {
     display: "flex",
-    justifyContent: "top",
     height: 270,
     backgroundColor: "#40394a",
     color: "#fff",
-    flexShrink: 0
+    flexShrink: 0,
+    justifyContent: "space-around"
   },
   text: {
-    justifyContent: "center",
-    alighnItems: "center",
-    padding: "6em"
+    paddingTop: "16em"
   }
 }));
 
