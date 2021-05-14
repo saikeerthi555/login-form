@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles((theme) => ({
   footer: {
     display: "flex",
-    height: 270,
+    height: "40vh",
     backgroundColor: "#40394a",
     color: "#fff",
     flexShrink: 0,
